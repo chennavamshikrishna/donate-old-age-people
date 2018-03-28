@@ -1,0 +1,75 @@
+
+
+html, body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  background-color: #ffffff;
+	text-align: center;
+
+}
+a {
+  text-decoration: none;
+}
+li a {
+  text-decoration: underline;
+  color: #0288d1;
+}
+.mdl-card {
+  overflow: visible;
+}
+
+.mdl-grid {
+  max-width: 1024px;
+  margin: auto;
+}
+.mdl-layout__header-row {
+  padding: 0;
+}
+
+
+.mdl-textfield__label{
+    color: #000000;
+
+}
+.mdl-textfield__input{
+      border-bottom: 1px solid #000000;
+
+}
+mdl-textfield mdl-js-textfield mdl-textfield--floating-label{
+  color:#000000;
+}
+
+
+.quickstart-user-details-container, .user-details-container {
+  margin-top: 20px;
+  line-height: 25px;
+}
+#quickstart-sign-in-status, #sign-in-status {
+  font-weight: bold;
+}
+
+code {
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+h1 {
+  background: url('https://image.flaticon.com/icons/svg/178/178983.svg') no-repeat;
+  background-size: 40px;
+  padding-left: 50px;
+  color: black;
+}
+#verification-code-form {
+  display:none;
+}
+#recaptcha-container {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+#verify-code-button, #cancel-verify-code-button {
+  margin-left: 20px;
+}
+#sign-out-button {
+  display: none;
+}
+#sign-in-card {
+  z-index: 2;
+}
